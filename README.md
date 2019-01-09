@@ -11,8 +11,9 @@ composer require farjihacker/fcm-push-notify
 ```
 ## Usage
 
-**Step 1: Install using above command.**
-**tep 2: Import/Use this Namespace.**
+**Step 1: Install using above command.** 
+
+**Step 2: Import/Use this Namespace.**
 
 ```bash
 use FirebaseNotify\Firebase; // Firebase Utility
