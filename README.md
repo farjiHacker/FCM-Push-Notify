@@ -11,21 +11,21 @@ composer require farjihacker/fcm-push-notify
 ```
 ## Usage
 
-####Step 1: Install using above command.
-####Step 2: Import/Use this Namespace.
+###Step 1: Install using above command. </ br>
+###Step 2: Import/Use this Namespace.
 
 ```bash
 use FirebaseNotify\Firebase; // Firebase Utility
 use FirebaseNotify\Push; // Create Message with JSON Formate
 ```
-####Step 3: Create Two Object.
+###Step 3: Create Two Object.
 
 ```php
 $firebase = new Firebase("FIREBASE_API_KEY"); // Pass Your API Key as Param
 $push = new Push();
 ```
 
-####Step 4: Create JSON Data Object Using ```$push``` Object.
+###Step 4: Create JSON Data Object Using ```$push``` Object.
 
 ```php
 // optional payload
@@ -58,7 +58,7 @@ $push->setIsBackground(FALSE);
 $push->setPayload($payload);
 ```
 
-####Step 5: Sent Push Notification using ```$firebase``` object.
+###Step 5: Sent Push Notification using ```$firebase``` object.
 
 ```php
 //Get JSON Object
